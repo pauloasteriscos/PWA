@@ -1,0 +1,15 @@
+Wireframe textual do MiniProj1, em SPA, referente ao "Currículo de Eng. Paulo Sousa".
+
+Cabeçalho
+  Foto
+ Título: “Currículo de Eng. Paulo Sousa”
+ Menu:
+  - [Quem Sou Eu] [O que faço] [Hobbies]
+
+Corpo
+ Conteúdo da secção ativa, renderizado dinamicamente
+  - [Quem Sou Eu] ou [O que faço] ou [Hobbies]
+
+Rodapé
+ - Ícone da rede social que possui (LinkedIn)
+ - Texto: © 2025 Paulo Sousa Silva

@@ -1,0 +1,135 @@
+:root {
+  --bg: #ffffff;
+  --text: #1f2936;
+  --muted: #777c86;
+  --primary: #10a5eb;
+  --header-bg: #f3f4f6;
+  --footer-bg: #101725;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans";
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+header {
+  background: var(--header-bg);
+  padding: 1.25rem 1rem;
+  border-bottom: 1px solid #e5e7eb;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+h1 {
+  margin: 0 0 .25rem 0;
+  font-size: 1.5rem;
+}
+
+nav a {
+  display: inline-block;
+  margin-right: 1rem;
+  text-decoration: none;
+  color: var(--primary);
+  font-weight: 600;
+}
+
+nav a.router-link-exact-active {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem 0 6.5rem;
+  min-height: calc(100vh - 180px);
+}
+
+section {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0);
+}
+
+section+section {
+  margin-top: 1rem;
+}
+
+.lead {
+  color: var(--muted);
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--footer-bg);
+  color: #e5e7eb;
+  padding: .9rem 0;
+  border-top: 1px solid #374151;
+}
+
+footer .links a {
+  color: #93c5fd;
+  margin: 0 .5rem;
+  text-decoration: none;
+}
+
+footer .links a:hover {
+  text-decoration: underline;
+}
+
+.icons {
+  display: inline-flex;
+  gap: .5rem;
+  vertical-align: middle;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+}
+
+@media (max-width: 600px) {
+  nav a {
+    margin-right: .6rem;
+  }
+
+  h1 {
+    font-size: 1.25rem;
+  }
+}
+
+
+/* --- Ajuste para ícone LinkedIn --- */
+footer a.nav__logo-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+}
+
+footer a.nav__logo-link icon svg {
+  height: 32px;
+  width: 32px;
+}
+
+footer a.nav__logo-link icon[data-test-id="nav-logo"] svg {
+  height: 18px;
+  width: auto;
+}
