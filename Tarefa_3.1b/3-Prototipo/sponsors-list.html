@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Animalec - Backoffice - Patrocinadores</title>
+    <link rel="stylesheet" href="animalec-backoffice.css">
+</head>
+
+<body>
+    <nav aria-label="Menu principal">
+        <h2>Animalec</h2>
+        <ul>
+            <li><a href="#" aria-label="Dashboard">Dashboard</a></li>
+            <li><a href="#" aria-label="Gestão de Animais">Animais</a></li>
+            <li><a href="#" aria-label="Gestão de Utilizadores">Utilizadores</a></li>
+            <li><a href="#" aria-label="Gestão de Quizzes">Quizzes</a></li>
+            <li><a href="sponsors-list.html" class="active" aria-label="Gestão de Patrocinadores">Patrocinadores</a>
+            </li>
+            <li><a href="experts-list.html" aria-label="Gestão de Especialistas">Especialistas</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Animalec – Backoffice</h1>
+    </header>
+    <main>
+        <section aria-labelledby="titulo-sponsors">
+            <h2 id="titulo-sponsors" class="page-title">Gestão de Especialistas</h2>
+
+            <div class="toolbar">
+                <div class="left">
+                    <a href="sponsors-new.html" class="btn btn-primary">+ Novo Especialista</a>
+                </div>
+                <div class="right">
+                    <input type="search" class="search-input" placeholder="Procurar Especialista">
+                    <button class="btn btn-secondary" type="button">Pesquisar</button>
+                </div>
+            </div>
+            <table aria-describedby="titulo-sponsors">
+                <thead>
+                    <tr>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Tipo de Patrocínio</th>
+                        <th scope="col">Email / Contacto</th>
+                        <th scope="col">Website</th>
+                        <th scope="col" class="actions">Ações</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>CROAC</td>
+                        <td>Canil e Gatil Municipal</td>
+                        <td>sembea@mun-setubal.pt</td>
+                        <td><a href="https://www.mun-setubal.pt/croac-canil-gatil-municipal/?doing_wp_cron=1746075180.0826730728149414062500"
+                                target="_new">https://www.mun-setubal.pt/croac-canil-gatil-municipal/?doing_wp_cron=1746075180.0826730728149414062500</a>
+                        </td>
+                        <td>4</td>
+                        <td class="actions">
+                            <a href="sponsor-view.html" class="btn btn-secondary">Ver</a>
+                            <a href="sponsor-edit.html" class="btn btn-primary">Editar</a>
+                            <button class="btn btn-danger" type="button">Remover</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>APCA</td>
+                        <td>Associação de Protecção aos Cães</td>
+                        <td>info@apca.org.pt</td>
+                        <td><a href="https://apca.org.pt/" target="_new">https://apca.org.pt/</a></td>
+                        <td>2</td>
+                        <td class="actions">
+                            <a href="sponsor-view.html" class="btn btn-secondary">Ver</a>
+                            <a href="sponsor-edit.html" class="btn btn-primary">Editar</a>
+                            <button class="btn btn-danger" type="button">Remover</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Encontra-me.org</td>
+                        <td>Divulgação de Animais Desaparecidos em Portugal</td>
+                        <td>geral@encontra-me.org</td>
+                        <td><a href="https://www.encontra-me.org/" target="_blank">https://www.encontra-me.org/</a></td>
+                        <td>3</td>
+                        <td class="actions">
+                            <a href="sponsor-view.html" class="btn btn-secondary">Ver</a>
+                            <a href="sponsor-edit.html" class="btn btn-primary">Editar</a>
+                            <button class="btn btn-danger" type="button">Remover</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>Animalec – Backoffice &copy; 2025. Protótipo HTML5 (sem funcionalidade real). - 2501478@estudante.uab.pt</p>
+    </footer>
+</body>
+
+</html>

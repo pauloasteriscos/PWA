@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <title>Animalec - Backoffice - Novo Expert</title>
+    <link rel="stylesheet" href="animalec-backoffice.css">
+</head>
+<body>
+    <nav>
+        <h2 style="margin-left:20px;">Animalec</h2>
+        <a href="#">Dashboard</a>
+        <a href="#">Animais</a>
+        <a href="#">Utilizadores</a>
+        <a href="#">Quizzes</a>
+        <a href="sponsors-list.html">Patrocinadores</a>
+        <a href="experts-list.html" class="active">Especialistas</a>
+    </nav>
+
+    <header><h1>Animalec – Backoffice</h1></header>
+
+    <main>
+
+        <p class="breadcrumb">Especialistas &gt; Novo Especialista</p>
+
+        <h2 class="page-title">Novo Especialista</h2>
+
+        <form>
+
+            <div class="form-group">
+                <label for="nome">Nome completo *</label>
+                <input type="text" id="nome" placeholder="Ex.: Eng. Paulo Silva" required>
+            </div>
+
+            <div class="form-group">
+                <label for="especialidade">Especialidade científica *</label>
+                <input type="text" id="especialidade" placeholder="Ex.: Mamíferos - Carnívoros">
+            </div>
+
+            <div class="form-group">
+                <label for="instituicao">Afiliação / Instituição *</label>
+                <input type="text" id="instituicao" placeholder="Ex.: Universidade Aberta">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email profissional *</label>
+                <input type="email" id="email" placeholder="nome@dominio.pt" required>
+            </div>
+
+            <div class="form-group">
+                <label for="website">Website</label>
+                <input type="url" id="website" placeholder="https://google.com/...">
+            </div>
+
+            <div class="form-group">
+                <label for="animais">Animais de especialidade</label>
+                <textarea id="animais" placeholder="Ex.: Tatu, Raposa, Lémingue"></textarea>
+            </div>
+
+            <div class="form-actions">
+                <a href="experts-list.html" class="btn btn-secondary">Cancelar</a>
+                <button class="btn btn-primary" type="button">Guardar</button>
+            </div>
+        </form>
+    </main>
+     <footer>
+        <p>Animalec – Backoffice &copy; 2025. Protótipo HTML5 (sem funcionalidade real) - 2501478@estudante.uab.pt.</p>
+    </footer>
+</body>
+</html>

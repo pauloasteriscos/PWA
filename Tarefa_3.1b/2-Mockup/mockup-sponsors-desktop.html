@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mockup – Gestão de Patrocinadores</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            margin: 0;
+            display: flex;
+            min-height: 100vh;
+            background: #efefef;
+        }
+
+        nav {
+            width: 220px;
+            background: #cccccc;
+            padding-top: 60px;
+            color: #444;
+            border-right: 2px solid #bbb;
+        }
+
+        nav h2 {
+            margin: 0 0 20px 20px;
+            font-size: 18px;
+        }
+
+        nav a {
+            display: block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #444;
+            font-size: 14px;
+        }
+
+
+        header {
+            position: fixed;
+            left: 220px;
+            right: 0;
+            top: 0;
+            height: 60px;
+            background: #dddddd;
+            border-bottom: 2px solid #bbbbbb;
+            display: flex;
+            align-items: center;
+            padding-left: 20px;
+        }
+
+        main {
+            margin-left: 220px;
+            padding: 100px 30px;
+        }
+
+        .page-title {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+
+        .toolbar {
+            background: #dcdcdc;
+            padding: 10px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            border: 1px solid #c2c2c2;
+        }
+
+        .placeholder-btn {
+            background: #bfbfbf;
+            padding: 8px 14px;
+            border-radius: 2px;
+            font-size: 13px;
+            color: #555;
+        }
+
+        .placeholder-input {
+            background: #e5e5e5;
+            border: 1px solid #c5c5c5;
+            padding: 8px 10px;
+            width: 200px;
+        }
+
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #ffffff;
+            border: 1px solid #ccc;
+        }
+
+        thead {
+            background: #dddddd;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #d0d0d0;
+            color: #555;
+            font-size: 13px;
+        }
+
+        td.placeholder-row {
+            height: 25px;
+            background: #f2f2f2;
+        }
+
+        footer {
+            margin-left: 220px;
+            padding: 20px 30px;
+            font-size: 11px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <h2>Animalec</h2>
+        <a>Dashboard</a>
+        <a>Animais</a>
+        <a>Utilizadores</a>
+        <a>Quizzes</a>
+        <a><strong>Patrocinadores</strong></a>
+        <a>Especialistas</a>
+    </nav>
+
+    <header>
+        <h1>Animalec – Mockup</h1>
+    </header>
+
+    <main>
+        <h2 class="page-title">Gestão de Patrocinadores</h2>
+
+        <div class="toolbar">
+            <div class="placeholder-btn">+ Novo Patrocinador</div>
+            <input class="placeholder-input" placeholder="Pesquisar...">
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Tipo</th>
+                    <th>Contacto</th>
+                    <th>Website</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="placeholder-row" colspan="5"></td>
+                </tr>
+                <tr>
+                    <td class="placeholder-row" colspan="5"></td>
+                </tr>
+                <tr>
+                    <td class="placeholder-row" colspan="5"></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        Mockup (média fidelidade) — sem funcionalidade real.
+    </footer>
+
+</body>
+
+</html>

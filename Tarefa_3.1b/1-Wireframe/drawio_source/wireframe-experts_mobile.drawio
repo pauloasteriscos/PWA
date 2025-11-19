@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 OPR/123.0.0.0" version="29.0.3">
+  <diagram name="wireframe-experts_mobile" id="usZ5HJ9nfQXjV-BtsaqA">
+    <mxGraphModel dx="2012" dy="1073" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HV0E8ifFMGqylAH4-HnY-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="105" width="270" height="385" as="geometry" />
+        </mxCell>
+        <mxCell id="HV0E8ifFMGqylAH4-HnY-2" value="&amp;lt; Animalec - Backoffice" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="50" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HV0E8ifFMGqylAH4-HnY-3" value="Animalec - Protótipo Wireframe - 2025" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="490" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HV0E8ifFMGqylAH4-HnY-5" value="Gestão de Especialistas" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="210" y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HV0E8ifFMGqylAH4-HnY-7" value="+ Novo Especialista" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="170" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HV0E8ifFMGqylAH4-HnY-8" value="Procurar especialista" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="170" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HV0E8ifFMGqylAH4-HnY-10" value="&lt;div&gt;Nome | Especialidade |&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;Animais&lt;/span&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="210" width="230" height="250" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

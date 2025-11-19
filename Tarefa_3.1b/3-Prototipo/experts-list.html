@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Animalec - Backoffice - Experts</title>
+    <link rel="stylesheet" href="animalec-backoffice.css">
+</head>
+
+<body>
+
+    <nav aria-label="Menu principal">
+        <h2>Animalec</h2>
+        <ul>
+            <li><a href="#" aria-label="Dashboard">Dashboard</a></li>
+            <li><a href="#" aria-label="Gestão de Animais">Animais</a></li>
+            <li><a href="#" aria-label="Gestão de Utilizadores">Utilizadores</a></li>
+            <li><a href="#" aria-label="Gestão de Quizzes">Quizzes</a></li>
+            <li><a href="sponsors-list.html" aria-label="Gestão de Patrocinadores">Patrocinadores</a></li>
+            <li><a href="experts-list.html" class="active" aria-label="Gestão de Especialistas">Especialistas</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Animalec – Backoffice</h1>
+    </header>
+
+    <main>
+        <h2 class="page-title">Gestão de Especialistas</h2>
+
+        <div class="toolbar">
+            <a href="experts-new.html" class="btn btn-primary">+ Novo Especialista</a>
+            <div>
+                <input type="search" class="btn-secondary" style="padding:6px 8px;"
+                    placeholder="Procurar especialista…">
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Especialidade</th>
+                    <th scope="col">Afiliação / Instituição</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Animais Estudados</th>
+                    <th scope="col" class="actions">Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Eng. Paulo Silva</td>
+                    <td>Mamíferos – Carnívoros</td>
+                    <td>Universidade Aberta</td>
+                    <td>2501478@estudante.uab.pt</td>
+                    <td>Cão, Raposa</td>
+                    <td class="actions">
+                        <a href="expert-view.html" class="btn btn-secondary">Ver</a>
+                        <a href="expert-edit.html" class="btn btn-primary">Editar</a>
+                        <button class="btn btn-secondary">Apagar</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Eng. Paulo Sousa</td>
+                    <td>Aves – Rapinantes</td>
+                    <td>Capgemini Portugal</td>
+                    <td>paulo@asteriscos.com.br</td>
+                    <td>Falcão Peregrino, Gavião</td>
+                    <td class="actions">
+                        <a href="expert-view.html" class="btn btn-secondary">Ver</a>
+                        <a href="expert-edit.html" class="btn btn-primary">Editar</a>
+                        <button class="btn btn-secondary">Apagar</button>
+                    </td>
+                </tr>
+            </tbody>
+
+        </table>
+    </main>
+
+    <footer>
+        Animalec – Protótipo HTML5 (sem funcionalidade real) – 2025 – 2501478@estudante.uab.pt
+    </footer>
+
+</body>
+
+</html>

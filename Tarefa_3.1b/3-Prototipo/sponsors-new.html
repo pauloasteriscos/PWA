@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <title>Animalec - Backoffice - Novo Especialista</title>
+    <link rel="stylesheet" href="animalec-backoffice.css">
+</head>
+<body>
+    <nav aria-label="Menu principal">
+        <h2>Animalec</h2>
+        <ul>
+            <li><a href="#" aria-label="Dashboard">Dashboard</a></li>
+            <li><a href="#" aria-label="Gestão de Animais">Animais</a></li>
+            <li><a href="#" aria-label="Gestão de Utilizadores">Utilizadores</a></li>
+            <li><a href="#" aria-label="Gestão de Quizzes">Quizzes</a></li>
+            <li><a href="sponsors-list.html" class="active" aria-label="Gestão de Patrocinadores">Patrocinadores</a></li>
+            <li><a href="experts-list.html" aria-label="Gestão de Especialistas">Especialistas</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Animalec – Backoffice</h1>
+    </header>
+    <main>
+        <section aria-labelledby="titulo-novo-sponsor">
+            <p class="breadcrumb">
+                Sponsors &gt; Novo Patrocinador
+            </p>
+            <h2 id="titulo-novo-sponsor" class="page-title">Novo Patrocinador</h2>
+            <form aria-describedby="titulo-novo-sponsor">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="nome"><span class="required">*</span> Nome do Patrocinador</label>
+                        <input type="text" id="nome" name="nome" placeholder="Ex.: Animais de Rua" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="tipo"><span class="required">*</span> Tipo de organização</label>
+                        <select id="tipo" name="tipo">
+                            <option value="">Selecione...</option>
+                            <option>ONG</option>
+                            <option>Fundação</option>
+                            <option>Empresa Privada</option>
+                            <option>Outro</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email"><span class="required">*</span> Email de contacto</label>
+                        <input type="email" id="email" name="email" placeholder="Ex.: 2501478@estudante.uab.pt" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="website">Website</label>
+                        <input type="url" id="website" name="website" placeholder="https://www.exemplo.org">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone</label>
+                    <input type="text" id="telefone" name="telefone" placeholder="+351 ...">
+                </div>
+                <div class="form-group">
+                    <label for="animais">Animais patrocinados</label>
+                    <input type="text" id="animais" name="animais" placeholder="Ex.: Puma, Jaguar, Gatos Pretos">
+                </div>
+                <div class="form-group">
+                    <label for="notas">Notas adicionais</label>
+                    <textarea id="notas" name="notas" placeholder="Informações adicionais sobre o patrocinador..."></textarea>
+                </div>
+                <div class="form-actions">
+                    <a href="sponsors-list.html" class="btn btn-secondary">Cancelar</a>
+                    <button type="button" class="btn btn-primary">Guardar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Animalec – Backoffice &copy; 2025. Protótipo HTML5 (sem funcionalidade real) - 2501478@estudante.uab.pt.</p>
+    </footer>
+</body>
+</html>
