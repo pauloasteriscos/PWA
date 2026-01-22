@@ -1,0 +1,10 @@
+cd C:\GIT\PWA\ProjetoFinal\frontend
+npm run dev
+
+
+Teste do Login
+  Abrir: http://localhost:5173/login
+  Credenciais do seed:
+    Email: luis.barbosa@exemplo.pt
+    Password: 123456
+    

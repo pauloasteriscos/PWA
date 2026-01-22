@@ -1,0 +1,4 @@
+cd C:\GIT\PWA\ProjetoFinal\backend
+npm install
+  npm run seed
+  npm run dev
